@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #fff;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+    user-select: none;
+    display: flex;
+    align-items: center;
+}
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.profile-img {
+    margin-top: 30px;
+    background-image: url('assets/img/myphoto.png');
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 250px;
+}
+.profile-name{
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    color: #000;
+    font-size: 60px;
+}
+.profile-professional{
+    font-family: "Signika Negative", sans-serif;
+    color: #000;
+    font-size: 25px;
+}
+.profile-ab{
+    font-family: "Signika Negative", sans-serif;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+}
+.profile-abdesc{
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Signika Negative", sans-serif;
+    width: 1300px;
+    color: #000;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.fa {
+    margin: 20px;
+    font-size: 30px !important;
+    text-decoration: none;
+    color: black;
+
+}
+.fa:hover {
+    color: #36619e;
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+.main-container{
+    position: relative;
+    top: 40px;
+}
+.master-container {
+    position: relative;
+    display: flex;
+    width: 1300px;
+    height: 80px;
+    align-items: center;
+    padding: 0;
+    border: none;
+    background-color: #36619e;
+    cursor: pointer; 
+    outline: none;
+    margin-bottom: 10px;
+}
+.master-container:last-child {
+    margin-bottom: 0;
+}
+.icon-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+}
+.icon-edu{
+    background-image: url('assets/img/edu.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+.icon-it{
+    background-image: url('assets/img/skills.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+.icon-pro{
+    background-image: url('assets/img/projects.png');
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+.title-container {
+    font-family: "Signika Negative", sans-serif;
+    font-size: 25px;
+    color: #fff;
+}
+.icon-arrow {
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+.content-box {
+    width: 1300px;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s;
+    background-color: #fff;
+
+}
+.content-master{
+    width: 100%;
+    height: auto;
+}
+.content-master:last-child {
+    margin-bottom: 0;
+}
+.ets-logo{
+    background-image: url('assets/img/etslogo.png');
+    background-size: cover;
+}
+.ipia-logo{
+    background-image: url('assets/img/ipialogo.png');
+    background-size: cover;
+}
+.skill-logo{
+    background-image: url('assets/img/itotsk.png');
+    background-size: cover;
+}
+.pr-logo{
+    background-image: url('assets/img/prolo.png');
+    background-size: cover;
+}
+.ets-logo,
+.ipia-logo,
+.skill-logo,
+.pr-logo{
+    width: 80px;
+    height: 80px;
+}
+.content-img{
+    margin-left: 40px;
+    transition: transform 0.3s ease;
+}
+.content-img:hover{
+    scale: 1.04;
+}
+.content-other{
+    position: relative;
+    top: -70px;
+    left: 140px;
+    line-height: 1.5;
+}
+.content-title{
+    font-family: "Signika Negative", sans-serif;
+    font-size: 25px;
+}
+.content-text{
+    width: 90%;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 15px;
+    color: #1e1e1e;
+    font-weight: normal;
+    text-wrap: wrap;
+}
+.content-desc{
+    width: 90%;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 15px;
+    color: #1e1e1e;
+    font-weight: normal;
+    text-wrap: wrap;
+}
+.content-yt{
+    font-family: "Signika Negative", sans-serif;
+    font-size: 16px;
+    color: #1e1e1e;
+    font-weight: bold;
+}
+.content-git{
+    font-family: "Signika Negative", sans-serif;
+    font-size: 16px;
+    color: #1e1e1e;
+    font-weight: bold;
+}
+.profile-con{
+    position: relative;
+    top: 50px;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 25px;
+    color: #1e1e1e;
+    font-weight: bold;
+}
+.profile-mail{
+    position: relative;
+    top: 70px;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 20px;
+    color: #36619e;
+}
+.btn-cl{
+    position: relative;
+    top: 90px;
+    padding: 5px;
+    background-color: #36619e;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.social2{
+    position: relative;
+    top: 100px;
+}
+@media screen and (max-width: 1200px) {
+    .profile-img {
+        margin-top: 30px;
+        background-image: url('assets/img/myphoto.png');
+        width: 250px;
+        height: 250px;
+        background-size: cover;
+        border-radius: 250px;
+    }
+    .profile-professional{
+        font-size: 20px;
+    }
+    .fa {
+        margin: 10px;
+        font-size: 25px !important;
+    }
+    .profile-abdesc{
+        width: 100%;
+        font-size: 16px;
+    }
+    .master-container {
+        position: relative;
+        width: 100%;
+        height: 80px;
+    }
+    .title-container {
+        font-size: 20px;
+    }
+    .content-box {
+        width: 100%;
+        height: 0;
+    }
+    .ets-logo,
+    .ipia-logo,
+    .skill-logo,
+    .pr-logo{
+        width: 80px;
+        height: 80px;
+    }
+    .content-img{
+        margin-left: 10px;
+    }
+    .content-other{
+        top: -70px;
+        left: 100px;
+    }
+    .content-title{
+        font-size: 22px;
+        width: 70%;
+        text-wrap: wrap;
+    }
+    .content-text,
+    .content-desc{
+        width: 75%;
+        font-size: 16px;
+    }
+    .content-yt,
+    .content-git{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .profile-img {
+        margin-top: 30px;
+        background-image: url('assets/img/myphoto.png');
+        width: 250px;
+        height: 250px;
+        background-size: cover;
+        border-radius: 250px;
+    }
+    .profile-professional{
+        font-size: 20px;
+    }
+    .fa {
+        margin: 10px;
+        font-size: 25px !important;
+    }
+    .profile-abdesc{
+        width: 100%;
+        font-size: 16px;
+    }
+    .master-container {
+        position: relative;
+        width: 100%;
+        height: 80px;
+    }
+    .title-container {
+        font-size: 20px;
+    }
+    .content-box {
+        width: 100%;
+        height: 0;
+    }
+    .ets-logo,
+    .ipia-logo,
+    .skill-logo,
+    .pr-logo{
+        width: 70px;
+        height: 70px;
+    }
+    .content-img{
+        margin-left: 10px;
+    }
+    .content-other{
+        top: -70px;
+        left: 100px;
+    }
+    .content-title{
+        font-size: 22px;
+        width: 70%;
+        text-wrap: wrap;
+    }
+    .content-text,
+    .content-desc{
+        width: 75%;
+        font-size: 15px;
+    }
+    .content-yt,
+    .content-git{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .profile-img {
+        margin-top: 30px;
+        background-image: url('assets/img/myphoto.png');
+        width: 250px;
+        height: 250px;
+        background-size: cover;
+        border-radius: 250px;
+    }
+    .profile-professional{
+        font-size: 20px;
+    }
+    .fa {
+        margin: 10px;
+        font-size: 25px !important;
+    }
+    .profile-abdesc{
+        width: 100%;
+        font-size: 16px;
+    }
+    .master-container {
+        position: relative;
+        width: 100%;
+        height: 80px;
+    }
+    .title-container {
+        font-size: 20px;
+    }
+    .content-box {
+        width: 100%;
+        height: 0;
+    }
+    .ets-logo,
+    .ipia-logo,
+    .skill-logo,
+    .pr-logo{
+        width: 60px;
+        height: 60px;
+    }
+    .content-img{
+        margin-left: 10px;
+    }
+    .content-other{
+        top: -60px;
+        left: 80px;
+    }
+    .content-title{
+        font-size: 18px;
+        width: 70%;
+        text-wrap: wrap;
+    }
+    .content-text,
+    .content-desc{
+        width: 75%;
+        font-size: 13px;
+    }
+    .content-yt,
+    .content-git{
+        font-size: 14px;
+    }
+}

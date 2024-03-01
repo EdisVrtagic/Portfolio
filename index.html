@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/cv.ico" type="image/x-icon">
+    <title>Portfolio | Edis Vrtagic</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="profile-img"></div>
+    <div class="profile-name">Edis Vrtagic</div>
+    <div class="profile-professional">Student | Full Stack Developer</div>
+    <div class="social">
+        <a href="https://www.linkedin.com/in/edis-vrtagic22" target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://github.com/EdisVrtagic" target="_blank" class="fa fa-github"></a>
+        <a href="https://www.instagram.com/edis__1/" target="_blank" class="fa fa-instagram"></a>
+        <a href="https://www.facebook.com/edis.vrtagic1/" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://www.youtube.com/@DonMarquez21" target="_blank" class="fa fa-youtube"></a>
+        <a href="mailto:edis_vrtagic@hotmail.com" target="_blank" class="fa fa-envelope"></a>
+    </div>
+    <div class="profile-ab">About Me</div>
+    <div class="profile-abdesc">
+        I am a student at one of the faculties of informatics and computing with the ability to think logically and creativity in solving problems.
+        <br>
+        While working on tasks, I like to listen to music because it stimulates my creativity and motivation.
+        <br>
+        I approach my tasks responsibly and I try to complete them as soon as possible.
+        <br>
+        I also like to learn a lot about new technologies and be in step with time.
+    </div>
+    <div class="main-container">
+        <div class="master-container" onclick="toggleBox('content-box1', 'icon-arrow1')">
+            <div class="icon-container icon-edu"></div>
+            <div class="title-container">EDUCATION</div>
+            <div class="icon-arrow icon-arrow1">
+                <i class='bx bx-chevron-down'></i>
+            </div>
+        </div>
+        <div id="content-box1" class="content-box">
+            <div class="content-master">
+                <a href="https://ipi-akademija.ba/" target="_blank">
+                    <div class="content-img ipia-logo"></div>
+                </a>
+                <div class="content-other">
+                <div class="content-title">Software engineer</div>
+                <div class="content-text">International business-information academy Tuzla (IPI Academy)</div>
+                <div class="content-desc">2020 - 2024</div>
+                </div>
+            </div>
+            <div class="content-master">
+                <a href="https://etstuzla.skolatk.edu.ba/" target="_blank">
+                    <div class="content-img ets-logo"></div>
+                </a>
+                <div class="content-other">
+                <div class="content-title">Electronics technician</div>
+                <div class="content-text">Electrical High school Tuzla</div>
+                <div class="content-desc">2016 - 2020</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="master-container" onclick="toggleBox('content-box2', 'icon-arrow2')">
+            <div class="icon-container icon-it"></div>
+            <div class="title-container">IT AND OTHER SKILLS</div>
+            <div class="icon-arrow icon-arrow2">
+                <i class='bx bx-chevron-down'></i>
+            </div>
+        </div>
+        <div id="content-box2" class="content-box">
+            <div class="content-master">
+                <div class="content-img skill-logo"></div>
+                <div class="content-other">
+                <div class="content-title">IT SKILLS</div>
+                <div class="content-text">I am capable of building desktop or web applications using Visual Studio, the C# programming language (.NET Framework), 
+                    and ASP.NET Core, and connecting them to SQL and MySql databases. I know the basics of the databases.. 
+                    I also have a basic understanding of computer networks.
+                </div>
+                </div>
+            </div>
+            <div class="content-master">
+                <div class="content-img skill-logo"></div>
+                <div class="content-other">
+                <div class="content-title">OTHER SKILLS</div>
+                <div class="content-text"> Flexibility, Responsibility, Communication skills, Organizational skills, Work in team, Solo work.
+                </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="master-container" onclick="toggleBox('content-box3', 'icon-arrow3')">
+            <div class="icon-container icon-pro"></div>
+            <div class="title-container">PROJECTS</div>
+            <div class="icon-arrow icon-arrow3">
+                <i class='bx bx-chevron-down'></i>
+            </div>
+        </div>
+        <div id="content-box3" class="content-box">
+            <div class="content-master">
+                <div class="content-img pr-logo"></div>
+                <div class="content-other">
+                <div class="content-title">Vibe Gaming - Digital game web store ASP.NET</div>
+                <div class="content-desc">Functionality: Soon!</div>
+                </div>
+            </div>
+            <div class="content-master">
+                <div class="content-img pr-logo"></div>
+                <div class="content-other">
+                <div class="content-title">Contacts web application ASP.NET</div>
+                <a href="https://github.com/EdisVrtagic/ContactsWebApp-ASP.NET" target="_blank">
+                    <div class="content-git">Click for source code on GitHub</div>
+                </a>
+                <div class="content-desc">Functionality: register, login, admin/user roles, logout, edit profile logged user, add, edit, delete contact in modal bootstrap, contact list, relational database, etc.</div>
+                </div>
+            </div>
+            <div class="content-master">
+                <div class="content-img pr-logo"></div>
+                <div class="content-other">
+                <div class="content-title">Spider-man web page HTML</div>
+                <a href="https://github.com/EdisVrtagic/Spider-man-web-page" target="_blank">
+                    <div class="content-git">Click for source code on GitHub</div>
+                </a>
+                <div class="content-desc">Functionality: Responsive page, About game, Our shop, Reviews, Specifications, Contact Us, etc.</div>
+                </div>
+            </div>
+            <div class="content-master">
+                <div class="content-img pr-logo"></div>
+                <div class="content-other">
+                <div class="content-title">OnlineFood System in C# .NETFramework (Desktop application)</div>
+                <a href="https://www.youtube.com/watch?v=GePg2GQ1IUc" target="_blank">
+                    <div class="content-yt">Click for video on YouTube</div>
+                </a>
+                <a href="https://github.com/EdisVrtagic/OnlineFood-Management-System" target="_blank">
+                    <div class="content-git">Click for source code on GitHub</div>
+                </a>
+                <div class="content-desc">Functionality: add,edit,remove products in code, products menu, orders menu, price calculation, remove orders, buy products, etc.</div>
+                </div>
+            </div>
+            <div class="content-master">
+                <div class="content-img pr-logo"></div>
+                <div class="content-other">
+                <div class="content-title">Viva Store Management System in C# .NETFramework (Desktop application)</div>
+                <a href="https://www.youtube.com/watch?v=8mMHC4KSjKs" target="_blank">
+                    <div class="content-yt">Click for video on YouTube</div>
+                </a>
+                <a href="https://github.com/EdisVrtagic/Viva-Store-Management-System" target="_blank">
+                    <div class="content-git">Click for source code on GitHub</div>
+                </a>
+                <div class="content-desc">Functionality: add,remove products in database, products menu, orders menu, price calculation, buy products,add credit card, wallet, budget, admin dashboard, user dashboard, etc.</div>
+                </div>
+            </div>
+            <div class="content-master">
+                <div class="content-img pr-logo"></div>
+                <div class="content-other">
+                <div class="content-title">Pets Friends Management System in C# .NETFramework (Desktop application)</div>
+                <a href="https://www.youtube.com/watch?v=pso6G9hyo3s" target="_blank">
+                    <div class="content-yt">Click for video on YouTube</div>
+                </a>
+                <a href="https://github.com/EdisVrtagic/Pet-Friends-Management-System" target="_blank">
+                    <div class="content-git">Click for source code on GitHub</div>
+                </a>
+                <div class="content-desc">Functionality: add pets in database, add user profile image, view gallery pets, google maps, adoption, help, contact, register/login profile, etc.</div>
+                </div>
+            </div>
+            <div class="content-master">
+                <div class="content-img pr-logo"></div>
+                <div class="content-other">
+                <div class="content-title">EMedical Management System in C# .NETFramework (Desktop application)</div>
+                <a href="https://www.youtube.com/watch?v=fYQCC2k1o0Y" target="_blank">
+                    <div class="content-yt">Click for video on YouTube</div>
+                </a>
+                <a href="https://github.com/EdisVrtagic/EMedical-Management-System" target="_blank">
+                    <div class="content-git">Click for source code on GitHub</div>
+                </a>
+                <div class="content-desc">Functionality: add,edit,delete doctor,profile picture,roles administrator,nurse,doctor,add,edit,delete patients,add opinions and diagnosis,print document,database, etc.</div>
+                </div>
+            </div>
+            <div class="content-master">
+                <div class="content-img pr-logo"></div>
+                <div class="content-other">
+                <div class="content-title">Oreon Food Recipes System in C# .NETFramework (Desktop application)</div>
+                <a href="https://www.youtube.com/watch?v=Q_Rr5cvP6d0" target="_blank">
+                    <div class="content-yt">Click for video on YouTube</div>
+                </a>
+                <a href="https://github.com/EdisVrtagic/Oreon-Recipes" target="_blank">
+                    <div class="content-git">Click for source code on GitHub</div>
+                </a>
+                <div class="content-desc">Functionality: view food recipes, view youtube recipes, food categories, sliding banner, etc.</div>
+                </div>
+            </div>
+            <div class="content-master">
+                <div class="content-img pr-logo"></div>
+                <div class="content-other">
+                <div class="content-title">Certificate App in C# .NETFramework (Desktop application)</div>
+                <a href="https://www.youtube.com/watch?v=QS-5lxuMihk" target="_blank">
+                    <div class="content-yt">Click for video on YouTube</div>
+                </a>
+                <a href="https://github.com/EdisVrtagic/CertificateApp" target="_blank">
+                    <div class="content-git">Click for source code on GitHub</div>
+                </a>
+                <div class="content-desc">Functionality: add certificate suppliers, edit, delete, preview certificate, participants, persons, multilanguage ( English, Bosnian ), switching to multiple users, add and preview comments, upload images, etc.</div>
+                </div>
+            </div>
+            <div class="content-master">
+                <div class="content-img pr-logo"></div>
+                <div class="content-other">
+                <div class="content-title">Mercury Game Store in C# .NETFramework (Desktop application)</div>
+                <a href="https://www.youtube.com/watch?v=iJAc8G2GMYY" target="_blank">
+                    <div class="content-yt">Click for video on YouTube</div>
+                </a>
+                <a href="https://github.com/EdisVrtagic/MercuryGameStore" target="_blank">
+                    <div class="content-git">Click for source code on GitHub</div>
+                </a>
+                <div class="content-desc">Functionality: List games, library games, wishlist, add friend, play game, wallet and card payment, 2FA for account, sending a verification code via email, privacy and policy, specification game, buy game, etc.</div>
+                </div>
+            </div>
+            <div class="content-master">
+                <div class="content-img pr-logo"></div>
+                <div class="content-other">
+                <div class="content-title">My Video Library in Java (Intellij IDEA)</div>
+                <a href="https://github.com/EdisVrtagic/my-video-library" target="_blank">
+                    <div class="content-git">Click for source code on GitHub</div>
+                </a>
+                <div class="content-desc">Functionality: login panel, list of movies, description of the film, etc.</div>
+                </div>
+            </div>
+            <div class="content-master">
+                <div class="content-img pr-logo"></div>
+                <div class="content-other">
+                <div class="content-title">Warehouse Management System in Java (Intellij IDEA)</div>
+                <a href="https://github.com/EdisVrtagic/Warehouse-management-system" target="_blank">
+                    <div class="content-git">Click for source code on GitHub</div>
+                </a>
+                <div class="content-desc">Functionality: mysql database, add product, list of products, orders, admin panel, user panel, etc.</div>
+                </div>
+            </div>
+            <div class="content-master">
+                <div class="content-img pr-logo"></div>
+                <div class="content-other">
+                <div class="content-title">Tip Calculator in Java (Android studio)</div>
+                <a href="https://github.com/EdisVrtagic/Tip-Calculator" target="_blank">
+                    <div class="content-git">Click for source code on GitHub</div>
+                </a>
+                <div class="content-desc">Functionality: android design, calculation of the added tip on the price of the product, etc.</div>
+                </div>
+            </div>
+            <div class="content-master">
+                <div class="content-img pr-logo"></div>
+                <div class="content-other">
+                <div class="content-title">Oreon Food Recipes in Java (Android studio)</div>
+                <a href="https://github.com/EdisVrtagic/OreonRecipes-Android" target="_blank">
+                    <div class="content-git">Click for source code on GitHub</div>
+                </a>
+                <div class="content-desc">Functionality: android design, loading design, main design, food recipes, food categories, etc.</div>
+                </div>
+            </div>
+            <div class="content-master">
+                <div class="content-img pr-logo"></div>
+                <div class="content-other">
+                <div class="content-title">Library Management System in VB.NET (Desktop application)</div>
+                <a href="https://github.com/EdisVrtagic/Library-Management-System" target="_blank">
+                    <div class="content-git">Click for source code on GitHub</div>
+                </a>
+                <div class="content-desc">Functionality: login form, add,edit,delete users, add,edit,delete books, add reservations book, edit reservations, database, etc.</div>
+                </div>
+            </div>
+            <div class="content-master">
+                <div class="content-img pr-logo"></div>
+                <div class="content-other">
+                <div class="content-title">Restaurant Management System in VB.NET (Desktop application)</div>
+                <a href="https://github.com/EdisVrtagic/Restaurant-Management-System" target="_blank">
+                    <div class="content-git">Click for source code on GitHub</div>
+                </a>
+                <div class="content-desc">Functionality: add employee, add product, manage product and employees, remove employee and product, edit account, database, etc.</div>
+                </div>
+            </div>
+            <div class="content-master">
+                <div class="content-img pr-logo"></div>
+                <div class="content-other">
+                <div class="content-title">Hotel Management System in C++</div>
+                <a href="https://github.com/EdisVrtagic/Hotel-Management-System" target="_blank">
+                    <div class="content-git">Click for source code on GitHub</div>
+                </a>
+                <div class="content-desc">Functionality: add guest, remove guest, edit guest, hotel services, etc.</div>
+                </div>
+            </div>
+            <div class="content-master">
+                <div class="content-img pr-logo"></div>
+                <div class="content-other">
+                <div class="content-title">Process state diagram in C++ ( Qt )</div>
+                <a href="https://github.com/EdisVrtagic/QT-process-state-diagram" target="_blank">
+                    <div class="content-git">Click for source code on GitHub</div>
+                </a>
+                <div class="content-desc">Functionality: create five process, move process, state (start, ready, run, wait, stop), state animation, start the animation with the arrows, etc.</div>
+                </div>
+            </div>
+            <div class="content-master">
+                <div class="content-img pr-logo"></div>
+                <div class="content-other">
+                <div class="content-title">Moodle Management System in C</div>
+                <a href="https://github.com/EdisVrtagic/Moodle-Management-System" target="_blank">
+                    <div class="content-git">Click for source code on GitHub</div>
+                </a>
+                <div class="content-desc">Functionality: add student, remove student, edit student, GPA, etc.</div>
+                </div>
+            </div>
+        </div>
+    </div>           
+    <script>
+function toggleBox(elementId, arrowId) {
+    var box = document.getElementById(elementId);
+    var contentHeight = box.scrollHeight;
+    var arrow = document.querySelector("." + arrowId + " i");
+
+    if (box.style.height === "0px" || box.style.height === "") {
+        box.style.height = contentHeight + "px";
+        arrow.classList.remove('bx-chevron-down');
+        arrow.classList.add('bx-chevron-up');
+    } else {
+        box.style.height = "0px";
+        arrow.classList.remove('bx-chevron-up');
+        arrow.classList.add('bx-chevron-down');
+    }
+}
+    </script>
+    <div class="profile-con">Contact Me</div>
+    <a href="mailto:edis_vrtagic@hotmail.com" target="_blank">
+        <div class="profile-mail">edis_vrtagic@hotmail.com</div>
+    </a>
+    <a href="assets/coverletter/EdisVrtagic-Cover Letter.pdf" target="_blank">
+    <button class="btn-cl">
+        Cover letter<i class='bx bxs-download'></i>
+    </button>
+    </a>
+    <div class="social2">
+        <a href="https://www.linkedin.com/in/edis-vrtagic22" target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://github.com/EdisVrtagic" target="_blank" class="fa fa-github"></a>
+        <a href="https://www.instagram.com/edis__1/" target="_blank" class="fa fa-instagram"></a>
+        <a href="https://www.facebook.com/edis.vrtagic1/" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://www.youtube.com/@DonMarquez21" target="_blank" class="fa fa-youtube"></a>
+        <a href="mailto:edis_vrtagic@hotmail.com" target="_blank" class="fa fa-envelope"></a>
+    </div> 
+    <div id="particles-js"></div>
+    <script src="particles.min.js"></script>
+    <script src="particles.js"></script>
+</body>
+</html>
