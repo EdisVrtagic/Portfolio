@@ -97,6 +97,12 @@ body{
     margin-right: 20px;
     color: #fff;
 }
+.icon-work{
+    background-image: url('assets/img/wexp.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
 .icon-edu{
     background-image: url('assets/img/edu.png');
     background-size: cover;
@@ -157,9 +163,14 @@ body{
     background-image: url('assets/img/prolo.png');
     background-size: cover;
 }
+.com-logo{
+    background-image: url('assets/img/comlogo.png');
+    background-size: cover;
+}
 .ets-logo,
 .ipia-logo,
 .skill-logo,
+.com-logo,
 .pr-logo{
     width: 80px;
     height: 80px;
@@ -276,6 +287,7 @@ body{
     .ets-logo,
     .ipia-logo,
     .skill-logo,
+    .com-logo,
     .pr-logo{
         width: 80px;
         height: 80px;
@@ -337,6 +349,7 @@ body{
     .ets-logo,
     .ipia-logo,
     .skill-logo,
+    .com-logo,
     .pr-logo{
         width: 70px;
         height: 70px;
@@ -398,6 +411,7 @@ body{
     .ets-logo,
     .ipia-logo,
     .skill-logo,
+    .com-logo,
     .pr-logo{
         width: 60px;
         height: 60px;
