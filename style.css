@@ -151,6 +151,10 @@ body{
     background-image: url('assets/img/etslogo.png');
     background-size: cover;
 }
+.cpe-logo{
+    background-image: url('assets/img/cpe.png');
+    background-size: cover;
+}
 .ipia-logo{
     background-image: url('assets/img/ipialogo.png');
     background-size: cover;
@@ -169,6 +173,7 @@ body{
 }
 .ets-logo,
 .ipia-logo,
+.cpe-logo,
 .skill-logo,
 .com-logo,
 .pr-logo{
@@ -287,6 +292,7 @@ body{
     .ets-logo,
     .ipia-logo,
     .skill-logo,
+    .cpe-logo,
     .com-logo,
     .pr-logo{
         width: 80px;
@@ -348,6 +354,7 @@ body{
     }
     .ets-logo,
     .ipia-logo,
+    .cpe-logo,
     .skill-logo,
     .com-logo,
     .pr-logo{
@@ -410,6 +417,7 @@ body{
     }
     .ets-logo,
     .ipia-logo,
+    .cpe-logo,
     .skill-logo,
     .com-logo,
     .pr-logo{
