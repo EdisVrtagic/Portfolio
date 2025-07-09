@@ -25,7 +25,7 @@ body{
 }
 .profile-img {
     margin-top: 30px;
-    background-image: url('assets/img/myphoto.png');
+    background-image: url('assets/img/myphoto.jpg');
     width: 250px;
     height: 250px;
     background-size: cover;
