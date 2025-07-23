@@ -265,7 +265,7 @@ body{
 @media screen and (max-width: 1200px) {
     .profile-img {
         margin-top: 30px;
-        background-image: url('assets/img/myphoto.png');
+        background-image: url('assets/img/myphoto.jpg');
         width: 250px;
         height: 250px;
         background-size: cover;
@@ -329,7 +329,7 @@ body{
 @media screen and (max-width: 768px) {
     .profile-img {
         margin-top: 30px;
-        background-image: url('assets/img/myphoto.png');
+        background-image: url('assets/img/myphoto.jpg');
         width: 250px;
         height: 250px;
         background-size: cover;
@@ -393,7 +393,7 @@ body{
 @media screen and (max-width: 320px) {
     .profile-img {
         margin-top: 30px;
-        background-image: url('assets/img/myphoto.png');
+        background-image: url('assets/img/myphoto.jpg');
         width: 250px;
         height: 250px;
         background-size: cover;
