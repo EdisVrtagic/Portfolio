@@ -304,8 +304,9 @@ body::after {
 }
 .skills-scroller__inner img {
     height: 40px;
-    width: 100%;
-    object-fit: cover;
+    width: auto;
+    max-width: 80px;
+    object-fit: contain;
 }
 .skills-scroller[data-animated="true"] {
   overflow: hidden;
